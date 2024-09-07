@@ -1,0 +1,120 @@
+* {
+    /* margin adalah ruang di sekitar boerder elemen */
+    margin: 0;
+    /* padding adalah ruang antara border elemen dan konten elemen */
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    background-color: green;
+}
+
+/* Display Flex */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    background-color: rgb(94, 255, 0);
+    color: aliceblue;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: rgb(255, 0, 98);
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-btn .btn {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(205, 190, 50);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn .btn:hover {
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(205, 190, 50);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#portofolio {
+    padding: 50px;
+    text-align: center;
+}
+
+#portofolio h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project {
+    padding: 41px;
+    background-color: rgb(94, 255, 0);
+    border: 1px solid rgb(94, 255, 0);
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+.project:hover {
+    padding: 60px;
+    background-color: rgb(94, 255, 0);
+    border: 1px solid rgb(94, 255, 0);
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+#contact {
+    background-color: rgb(94, 255, 0);
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: o;
+}
+
+#contact ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: red;
+}
+
+footer {
+    text-align: center;
+}
